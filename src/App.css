@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+.main-bg {
+  height: 546px;
+  background-image: url(https://image.a-rt.com//art/display/gs/contents/202407/20240730095233620.jpg?fitting=large|1920:600);
+  background-size: cover;
+  background-position: center;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: red;
+}
+
+.card-body div,
+.card-body p {
+  margin: 5px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
